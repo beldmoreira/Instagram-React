@@ -1,2 +1,2 @@
-let nome = prompt("Qual o seu nome?");
-alert("O nome digitado foi " + nome);
+import ReactDOM from 'react-dom';
+import Header from './Header';
