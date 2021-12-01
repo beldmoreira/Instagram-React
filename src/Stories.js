@@ -1,6 +1,7 @@
+import Corpo from './Corpo';
 function Stories(){
 return(
-<div class="corpo">
+    <Corpo/>
         <div class="esquerda">
           <div class="stories">
             <div class="story">
@@ -80,4 +81,4 @@ return(
             </div>
           </div>
           );
-          }
+        }
