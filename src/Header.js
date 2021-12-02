@@ -1,4 +1,4 @@
-function Header(){
+export default function Header(){
     return(
       <div class="navbar">
         <div class="container">
