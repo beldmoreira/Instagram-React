@@ -1,8 +1,6 @@
-import Corpo from './Corpo';
+
 function Stories(){
 return(
-    <Corpo/>
-        <div class="esquerda">
           <div class="stories">
             <div class="story">
               <div class="imagem">
