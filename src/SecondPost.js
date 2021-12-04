@@ -1,4 +1,4 @@
-export default function SEcondFile (){
+export default function SecondPost (){
     return(
 <div class="post">
               <div class="topo">
