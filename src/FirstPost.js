@@ -1,4 +1,4 @@
-export default function FirstFile (){
+export default function FirstPost (){
 return(
 <div class="posts">
             <div class="post">
