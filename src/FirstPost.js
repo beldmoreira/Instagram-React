@@ -1,6 +1,6 @@
 export default function FirstPost (){
 return(
-<div class="posts">
+
             <div class="post">
               <div class="topo">
                 <div class="usuario">
