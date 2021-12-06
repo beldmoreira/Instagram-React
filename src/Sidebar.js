@@ -8,7 +8,7 @@ let info= [{img:"assets/img/bad.vibes.memes.svg",nome:"bad.vibes.memes",razao: "
 {img:"assets/img/smallcutecats.svg",nome:"smallcutecats",razao:"Segue você"}] 
     return(
       <div class="usuario">
-        {info.map(info => Sidebar <img={info.img},nome ={info.nome},razao={info.razao}/>}
+        {info.map(info =>  <Sidebar img = {info.img} nome ={info.nome} razao={info.razao}/>}
         </div>
     );
 }
