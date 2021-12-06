@@ -1,10 +1,21 @@
-export default function SecondPost (){
+function Second (){
+  let info = {nome: 'barked',avatar:'assets/img/respondeai.svg', img: 'assets/img/dog.svg', curtido: 'adorable_animals', curtidas: '3576092'}
+  return(
+  <div class="posts">
+    {info.map(info => <Second nome={info.nome} avatar={info.avatar} img={info.img} curtido={info.curtido} curtidas={info.curtidas}/>)}
+  </div>
+);
+} 
+
+
+export default function SecondPost (props){
+  
     return(
-<div class="post">
+      <div class="post">
               <div class="topo">
                 <div class="usuario">
-                  <img src="assets/img/barked.svg" />
-                  barked
+                  <img src={props.avatar} />
+                  {props.nome}
                 </div>
                 <div class="acoes">
                   <ion-icon name="ellipsis-horizontal"></ion-icon>
@@ -12,7 +23,7 @@ export default function SecondPost (){
               </div>
 
               <div class="conteudo">
-                <img src="assets/img/dog.svg" />
+                <img src={props.img} />
               </div>
 
               <div class="fundo">
@@ -28,14 +39,12 @@ export default function SecondPost (){
                 </div>
 
                 <div class="curtidas">
-                  <img src="assets/img/adorable_animals.svg" />
+                  <img src={props.avatar} />
                   <div class="texto">
-                    Curtido por <strong>adorable_animals</strong> e <strong>outras 99.159 pessoas</strong>
+                    Curtido por <strong>{props.curtido}</strong> e <strong>{props.curtidas}</strong>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        );
+          );
     }
