@@ -4,9 +4,7 @@ import Body from './Body';
 import BackgroundMobile from './BackgroundMobile';
 
 function App() {
-    <div class="root">
-       
-    </div>
+   
     return (
         <div class="root">
         <Header/>

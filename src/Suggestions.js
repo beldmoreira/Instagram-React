@@ -1,4 +1,5 @@
-export default function Suggestions(){
+import Sidebar from "./Sidebar";
+export default function Suggestions(props){
     return(
 
     <div class="sugestoes">
@@ -9,10 +10,10 @@ export default function Suggestions(){
 
             <div class="sugestao">
               <div class="usuario">
-                <img src="assets/img/bad.vibes.memes.svg" />
+                <img src = {props.img}/>
                 <div class="texto">
-                  <div class="nome">bad.vibes.memes</div>
-                  <div class="razao">Segue você</div>
+                  <div class="nome">{props.nome}</div>
+                  <div class="razao">{props.razao}</div>
                 </div>
               </div>
 
@@ -21,10 +22,10 @@ export default function Suggestions(){
 
             <div class="sugestao">
               <div class="usuario">
-                <img src="assets/img/chibirdart.svg" />
+                <img src = {props.img}/>
                 <div class="texto">
-                  <div class="nome">chibirdart</div>
-                  <div class="razao">Segue você</div>
+                  <div class="nome">{props.nome}</div>
+                  <div class="razao">{props.razao}</div>
                 </div>
               </div>
 
@@ -33,10 +34,10 @@ export default function Suggestions(){
 
             <div class="sugestao">
               <div class="usuario">
-                <img src="assets/img/razoesparaacreditar.svg" />
+                <img src = {props.img}/>
                 <div class="texto">
-                  <div class="nome">razoesparaacreditar</div>
-                  <div class="razao">Novo no Instagram</div>
+                  <div class="nome">{props.nome}</div>
+                  <div class="razao">{props.razao}</div>
                 </div>
               </div>
 
@@ -45,10 +46,10 @@ export default function Suggestions(){
 
             <div class="sugestao">
               <div class="usuario">
-                <img src="assets/img/adorable_animals.svg" />
+                <img src = {props.img}/>
                 <div class="texto">
-                  <div class="nome">adorable_animals</div>
-                  <div class="razao">Segue você</div>
+                  <div class="nome">{props.nome}</div>
+                  <div class="razao">{props.razao}</div>
                 </div>
               </div>
 
@@ -57,10 +58,10 @@ export default function Suggestions(){
 
             <div class="sugestao">
               <div class="usuario">
-                <img src="assets/img/smallcutecats.svg" />
+                <img src = {props.img}/>
                 <div class="texto">
-                  <div class="nome">smallcutecats</div>
-                  <div class="razao">Segue você</div>
+                  <div class="nome">{props.nome}</div>
+                  <div class="razao">{props.razao}</div>
                 </div>
               </div>
 
