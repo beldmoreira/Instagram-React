@@ -1,11 +1,10 @@
-export default function FirstPost (){
-return(
-
-            <div class="post">
+import Posts from "./Posts";
+export default function FirstPost (props){
+return (     <div class="post">
               <div class="topo">
                 <div class="usuario">
-                  <img src="assets/img/meowed.svg" />
-                  meowed
+                  <img src={props.avatar} />
+                  {props.nome}
                 </div>
                 <div class="acoes">
                   <ion-icon name="ellipsis-horizontal"></ion-icon>
@@ -13,7 +12,7 @@ return(
               </div>
 
               <div class="conteudo">
-                <img src="assets/img/gato-telefone.svg" />
+              <img src={props.img}/>
               </div>
 
               <div class="fundo">
@@ -29,9 +28,9 @@ return(
                 </div>
 
                 <div class="curtidas">
-                  <img src="assets/img/respondeai.svg" />
+                  <img src={props.avatar} />
                   <div class="texto">
-                    Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong>
+                    Curtido por <strong>{props.curtido}</strong> e <strong>outras {props.curtidas}pessoas</strong>
                   </div>
                 </div>
               </div>
