@@ -1,4 +1,8 @@
 import Suggestions from "./Suggestions";
+import Stories from "./Stories";
+import Posts from "./Posts";
+import User from "./User"
+import Footer from "./Footer";
 
 export default function Body(){
 return(
