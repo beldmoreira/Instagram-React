@@ -1,76 +1,75 @@
-
-export default function Stories(){
-return(
+import Story from "./Story";
+export default function Stories(props){
+   return (
           <div class="stories">
             <div class="story">
               <div class="imagem">
-                <img src="assets/img/9gag.svg" />
+                <img src={props.image}/>
               </div>
-              <div class="usuario">
-                9gag
+              <div class={props.user}>
+               </div>
+            </div>
+
+            <div class="story">
+              <div class="imagem">
+                <img src= {props.image}/>
+              </div>
+              <div class={props.user}>
+                
               </div>
             </div>
 
             <div class="story">
               <div class="imagem">
-                <img src="assets/img/meowed.svg" />
+                <img src={props.image} />
               </div>
-              <div class="usuario">
-                meowed
-              </div>
-            </div>
-
-            <div class="story">
-              <div class="imagem">
-                <img src="assets/img/barked.svg" />
-              </div>
-              <div class="usuario">
-                barked
+              <div class={props.user}>
+                
               </div>
             </div>
 
             <div class="story">
               <div class="imagem">
-                <img src="assets/img/nathanwpylestrangeplanet.svg" />
+                <img src={props.image} />
               </div>
-              <div class="usuario">
-                nathanwpylestrangeplanet
+              <div class={props.user}>
+                
               </div>
             </div>
 
             <div class="story">
               <div class="imagem">
-                <img src="assets/img/wawawicomics.svg" />
+                <img src={props.image} />
               </div>
-              <div class="usuario">
-                wawawicomics
+              <div class={props.user}>
+                
               </div>
             </div>
             
             <div class="story">
               <div class="imagem">
-                <img src="assets/img/respondeai.svg" />
+                <img src={props.image} />
               </div>
-              <div class="usuario">
-                respondeai
-              </div>
-            </div>
-
-            <div class="story">
-              <div class="imagem">
-                <img src="assets/img/filomoderna.svg" />
-              </div>
-              <div class="usuario">
-                filomoderna
+              <div class={props.user}>
+                
               </div>
             </div>
 
             <div class="story">
               <div class="imagem">
-                <img src="assets/img/memeriagourmet.svg" />
+                <img src={props.image} />
               </div>
-              <div class="usuario">
-                memeriagourmet
+              <div class={props.user}>
+                
+              </div>
+            </div>
+
+            <div class="story">
+              <div class="imagem">
+                <img src={props.image} />
+              </div>
+              <div class={props.user}>
+                
               </div>
             </div>
 
@@ -80,3 +79,4 @@ return(
           </div>
           );
         }
+      
