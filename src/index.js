@@ -1,12 +1,6 @@
 import ReactDOM from 'react-dom';
 import Header from './Header';
-import Stories from './Stories';
 import Body from './Body';
-import FirstPost from './FirstPost';
-import SecondPost from './SecondPost';
-import User from './User';
-import Suggestions from './Suggestions';
-import Footer from './Footer';
 import BackgroundMobile from './BackgroundMobile';
 
 function App() {
@@ -14,15 +8,11 @@ function App() {
        
     </div>
     return (
+        <div class="root">
         <Header/>
         <Body/>
-        <Stories/>
-        <FirstPost/>
-        <SecondPost/>
-        <User/>
-        <Suggestions/>
-        <Footer/>
         <BackgroundMobile/>
+        </div>
     );
 }
 const app= App();
