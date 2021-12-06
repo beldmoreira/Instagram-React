@@ -1,6 +1,7 @@
 import Suggestions from "./Suggestions";
 import Stories from "./Stories";
-import Posts from "./Posts";
+import FirstPost from "./FirstPost"
+import SecondPost from "./SecondPost"
 import User from "./User"
 import Footer from "./Footer";
 
@@ -9,7 +10,8 @@ return(
 <div class="corpo">
     <div class="esquerda">
         <Stories/>
-        <Posts/>
+        <FirstPost/>
+        <SecondPost/>
         <User/>
         <Suggestions/>
         <Footer/>
